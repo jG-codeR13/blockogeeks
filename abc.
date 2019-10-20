@@ -1,0 +1,121 @@
+anchit@sanchit-HP-Pavilion-15-Notebook-PC:~/pet-shop-tutorial$ truffle migrate --reset --network kovan
+You can improve web3's peformance when running Node.js versions older than 10.5.0 by installing the (deprecated) scrypt package in your project
+You can improve web3's peformance when running Node.js versions older than 10.5.0 by installing the (deprecated) scrypt package in your project
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'kovan-fork'
+> Network id:      42
+> Block gas limit: 0x989680
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        14258542
+   > block timestamp:     1571554002
+   > account:             0xB9eeB49576774f83887aeA99514e574356731b28
+   > balance:             2.999507214
+   > gas used:            246393
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000492786 ETH
+
+   -------------------------------------
+   > Total cost:         0.000492786 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'Adoption'
+   --------------------
+   > block number:        14258544
+   > block timestamp:     1571554011
+   > account:             0xB9eeB49576774f83887aeA99514e574356731b28
+   > balance:             2.998978034
+   > gas used:            237567
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000475134 ETH
+
+   -------------------------------------
+   > Total cost:         0.000475134 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.00096792 ETH
+
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'kovan'
+> Network id:      42
+> Block gas limit: 0x989680
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x86825190b0d84d1992c799297818ee6948035fc9fae365ad845ade898703a445
+   > Blocks: 2            Seconds: 5
+   > contract address:    0x250B386BeB653b46eAD844D08368368946a2790e
+   > block number:        14258550
+   > block timestamp:     1571554032
+   > account:             0xB9eeB49576774f83887aeA99514e574356731b28
+   > balance:             2.9955339
+   > gas used:            223305
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0044661 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0044661 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'Adoption'
+   --------------------
+   > transaction hash:    0xa06911c098fd3f04e70dbc17eae0afa4e02f05e7c9617afe34d192cd33c23471
+   > Blocks: 2            Seconds: 5
+   > contract address:    0xE482a08e17e8811aeA45589f9d23b7eB2a3C3F80
+   > block number:        14258555
+   > block timestamp:     1571554052
+   > account:             0xB9eeB49576774f83887aeA99514e574356731b28
+   > balance:             2.99064874
+   > gas used:            201895
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0040379 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0040379 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.008504 ETH

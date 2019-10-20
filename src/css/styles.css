@@ -1,0 +1,13 @@
+body {
+	background-color: coral;
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: white;
+  background-color: #77D6FE;
+}
+
+div.panel {
+	box-shadow: 5px -5px 0px 5px rgba(205, 224, 38, 0.33);
+}
