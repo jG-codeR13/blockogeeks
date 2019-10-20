@@ -47,7 +47,7 @@ CONTENTS
 
 Ways to host your project on the localhost:
 
-
+* install the metamask extension for google chrome
 * Clone this directory using git clone
 * Install packages using npm install
 * Start the Frontend Server using npm run dev
